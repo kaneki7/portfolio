@@ -148,3 +148,19 @@ Conditionals:  if _______ then, do x  else, do y
 
 
 I thought robotics was a bad thing because although it connected people it also disconnnected them from the real world. these new technologies like the self driving car would just enable people to do what they want without facing consequences like with drunk driviing. I'm excited to actually make a robot of my own.
+
+ 
+ void setup() {
+  // put your setup code here, to run once:
+  serial.begin(9600);
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+  serial.print("Goodnight moon");
+  delay(200);
+  serial.println("hello");
+}
+ 
+ 
+ 
